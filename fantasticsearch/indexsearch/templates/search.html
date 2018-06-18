@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{% load static %}
+		<link rel="stylesheet" type="text/css" href="{% static "style.css" %}">
+		<link rel="shortcut icon" type="image/png" href="{% static  "favicon.ico" %}"/>
+		<title>fantasticsearch</title>
+	</head>
+	<body>
+		<div>
+            <h1 style="color:red">{{ message }}</h1>
+			<img src="{% static "logo.png" %}" style="width:50%;height:50%"/>
+		</div>
+	</body>
+</html>
